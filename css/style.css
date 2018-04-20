@@ -151,8 +151,12 @@ body {
     height: 500px;
     background: linear-gradient(#fff, #ddd);
 }
-.banner,
-.banner-prev{
+.banner{
+    height: 500px;
+    position: relative;
+}
+.banner-prev,
+.banner-next{
     position: absolute;
     left: 0;
     right: 0;
