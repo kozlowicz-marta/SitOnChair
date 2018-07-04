@@ -117,7 +117,7 @@ body {
 .page-header {
     height: 40px;
     background: #000;
-    z-index: 100; /* Zeby nie uciekala zakladka "aktualnosci/nasz team/historia" bo tu chyba label ma wiekszy index i nie lapie menu przez to, zeby sie nie chowalo z index zawsze z position */
+    z-index: 1000; /* Zeby nie uciekala zakladka "aktualnosci/nasz team/historia" bo tu chyba label ma wiekszy index i nie lapie menu przez to, zeby sie nie chowalo z index zawsze z position */
     position: relative;
 }
 .page-header .container {}
@@ -308,6 +308,7 @@ body {
 .main-slider-slide.active {
     opacity:1;
     z-index: 2;
+
 }
 
 .main-slider .slide-image {
@@ -324,6 +325,10 @@ body {
     position: absolute;
     padding-top: 50px;
 
+}
+.img-chair-orange{
+  position: absolute;
+  padding-left: 50px;
 }
 .slider{
     position: relative;
@@ -527,7 +532,7 @@ body {
    flex-direction: column;
    justify-content: space-between;
    position: relative;
-	
+
 }
 
 .price-list-box .price-list-box-title {
@@ -536,7 +541,7 @@ body {
    text-transform: uppercase;
    color: var(--color);
    margin-top: 20px;
-	
+
 }
 
 .price-list-box .price-list-box-price {
@@ -550,7 +555,7 @@ body {
    justify-content: center;
    align-items: center;
    flex-direction: column;
-	
+
 }
 
 .price-list-box .price-cnt {
@@ -582,7 +587,7 @@ body {
     background: #E4E4E4;
     font-size: 25px;
     text-align: center;
-    padding: 10px 0;
+    padding: 19px 0;
     color: #8F8F8F;
 }
 
@@ -650,12 +655,12 @@ body {
 .form-left{
    width: 635px;
 	float:left;
-    
+
 }
 .form-right{
    width: 345px;
 	float:right;
-    
+
 }
 .form-addon{
    height: 195px;
@@ -743,21 +748,21 @@ body {
     transform: translate(-50%,-50%) scale(1);
 }
 .btn{
-    font-size: 34px;
+    font-size: 33px;
     color: #fff;
     background: var(--color);
     padding: 15px;
     text-transform: uppercase;
     border-radius: 10px;
     border: 0;
-    width: 100%;
+    width: 65%;
     cursor: pointer; /* lapka dla kursora*/
-	
+
 }
-	
+
 
 /* Stopka */
-	
+
 .main-footer {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -820,4 +825,3 @@ body {
 .social-icons .social-twitter {
     background: url(../images/twitter.png) no-repeat;
 }
-

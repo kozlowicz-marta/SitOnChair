@@ -1,19 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-var chair = document.querySelector(".info-box-cnt");
-var babe = document.querySelector(".info-box-cnt2");
-chair.addEventListener("mouseover", function () {
-chair.style.visibility = "hidden";
-
-});
-
-babe.addEventListener("mouseover", function () {
-babe.style.visibility = "hidden";
-
-});
-
-
-
 var images = document.querySelectorAll('.img-chair');
 var next = document.querySelector(".main-slider-next");
 var prev = document.querySelector(".main-slider-prev");
