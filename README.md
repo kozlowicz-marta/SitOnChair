@@ -1,5 +1,10 @@
 # sitOnChair
-Warsztat z cięcia layoutu
 
+A furniture online shop's website project.
 
-https://kozlowicz-marta.github.io/SitOnChair/
+Technologies used in this project:
+* HTML
+* CSS
+* JavaScript
+* Gulp
+
